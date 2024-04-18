@@ -1,0 +1,17 @@
+
+
+CLASE 2
+Librerias para Testing:
+React Testing Library --> TDD, se centra en la UI
+Enzyme (Basado en funcionalidad)
+
+//React.memo verifica que las propiedades no cambien 
+//y no renderiza el component, se carga en memoria
+
+Los eventos son los mismos que js solo que con CamelCase
+   // Hooks (Es una funcion)
+    // get y set
+    const [counter,setCounter] = useState(0)
+
+si tengo un evento con una funcion sin callback o arrow se ejecuta todo tiempo(renderiza) y se rompe{ funcion()   }
+
